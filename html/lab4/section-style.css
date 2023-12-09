@@ -1,0 +1,23 @@
+section {
+  margin: 20px 10px 100px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+section img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  cursor: pointer; 
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
